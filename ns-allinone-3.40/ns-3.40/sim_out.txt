@@ -1,0 +1,23 @@
+gmake[2]: *** [CMakeFiles/Makefile2:5258: src/config-store/CMakeFiles/libconfig-store.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:17623: scratch/CMakeFiles/scratch_multi-bottleneck-sim.dir/rule] Interrupt
+gmake: *** [Makefile:6056: scratch_multi-bottleneck-sim] Interrupt
+Traceback (most recent call last):
+  File "/media/psf/Home/Desktop/ns3-project/ns-allinone-3.40/ns-3.40/./ns3", line 1622, in <module>
+    main()
+  File "/media/psf/Home/Desktop/ns3-project/ns-allinone-3.40/ns-3.40/./ns3", line 1593, in main
+    build_step(args,
+  File "/media/psf/Home/Desktop/ns3-project/ns-allinone-3.40/ns-3.40/./ns3", line 1093, in build_step
+    cmake_build(current_cmake_cache_folder,
+  File "/media/psf/Home/Desktop/ns3-project/ns-allinone-3.40/ns-3.40/./ns3", line 901, in cmake_build
+    ret = subprocess.run(cmake_build_command.split(),
+  File "/usr/lib/python3.10/subprocess.py", line 505, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1146, in communicate
+    self.wait()
+  File "/usr/lib/python3.10/subprocess.py", line 1209, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.10/subprocess.py", line 1959, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.10/subprocess.py", line 1917, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
