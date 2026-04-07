@@ -1,0 +1,75 @@
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+.vscode/
+.idea/
+
+# =========================
+# Python cache / env
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+
+# =========================
+# Logs / runtime dumps
+# =========================
+*.log
+*.out
+*.err
+*.pid
+*.stackdump
+
+# =========================
+# ns-3 / CMake build artifacts
+# =========================
+ns-allinone-3.40/ns-3.40/build/
+ns-allinone-3.40/ns-3.40/cmake-cache/
+ns-allinone-3.40/ns-3.40/.lock-ns3*
+ns-allinone-3.40/ns-3.40/.lock-waf*
+ns-allinone-3.40/ns-3.40/CMakeCache.txt
+ns-allinone-3.40/ns-3.40/CMakeFiles/
+ns-allinone-3.40/ns-3.40/compile_commands.json
+
+# NetAnim build artifacts
+ns-allinone-3.40/netanim-3.109/*.o
+ns-allinone-3.40/netanim-3.109/moc_*.cpp
+ns-allinone-3.40/netanim-3.109/qrc_*.cpp
+ns-allinone-3.40/netanim-3.109/Makefile*
+
+# Bake temporary/build artifacts
+ns-allinone-3.40/bake/build/
+ns-allinone-3.40/bake/source/
+ns-allinone-3.40/bake/*.pyc
+
+# =========================
+# Simulation-generated outputs
+# =========================
+ns-allinone-3.40/**/*.pcap
+ns-allinone-3.40/**/*.tr
+ns-allinone-3.40/**/*.xml
+ns-allinone-3.40/**/*.flowmon
+ns-allinone-3.40/**/*.plt
+ns-allinone-3.40/**/*.png
+ns-allinone-3.40/**/*.pdf
+
+# Generated sweep / metrics files
+ns-allinone-3.40/**/*.csv
+ns-allinone-3.40/**/*_model.pth
+ns-allinone-3.40/**/results/
+
+# Local debug outputs used in this workspace
+ns-allinone-3.40/agent_out.txt
+ns-allinone-3.40/sim_out.txt
+ns-allinone-3.40/cmd.txt
